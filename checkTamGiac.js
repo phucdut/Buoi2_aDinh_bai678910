@@ -26,6 +26,9 @@ function checkTamGiac() {
                     alert('Tam giác vuông cân');
                     console.log("Vuông cân");
                 }
+            } else {
+                alert('Tam giác thường')
+                console.log("Thường");
             }
         } else if (b > a && b > c) {
             if (b * b == a * a + c * c) {
@@ -35,6 +38,9 @@ function checkTamGiac() {
                     alert('Tam giác vuông cân');
                     console.log("Vuông cân");
                 }
+            } else {
+                alert('Tam giác thường')
+                console.log("Thường");
             }
         } else if (c > b && c > a) {
             if (c * c == b * b + a * a) {
@@ -44,6 +50,9 @@ function checkTamGiac() {
                     alert('Tam giác vuông cân');
                     console.log("Vuông cân");
                 }
+            } else {
+                alert('Tam giác thường')
+                console.log("Thường");
             }
         } else if (a == b && a == c) {
             alert('Tam giác đều');
@@ -51,10 +60,7 @@ function checkTamGiac() {
         } else if (a == b || a == c || c == a) {
             alert('Tam giác cân');
             console.log("Cân");
-        } else {
-            alert('Tam giác thường')
-            console.log("Thường");
-        }
+        } 
     } else {
         alert("3 canh khong the tao thanh 1 hinh tam giac");
     }
